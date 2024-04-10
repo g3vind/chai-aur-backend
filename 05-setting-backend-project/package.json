@@ -6,9 +6,12 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start":"node src/index.js"
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
 }
